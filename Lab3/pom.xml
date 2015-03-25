@@ -5,7 +5,6 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Lab3</name>
 	<packaging>jar</packaging>
-  
   	<build>
   		<plugins>
   			<plugin>
@@ -21,6 +20,17 @@
     		</plugin>
   		</plugins>
   	</build>
-  
-  
+  	<dependencies>
+  <dependency>
+  <groupId>pl.pragmatists</groupId>
+  <artifactId>JUnitParams</artifactId>
+  <version>1.0.2</version>
+  <scope>test</scope>
+  </dependency>
+  <dependency>
+	<groupId>jUnit</groupId>
+	<artifactId>jUnit</artifactId>
+	<version>4.11</version>
+</dependency>
+  </dependencies>
 </project>
